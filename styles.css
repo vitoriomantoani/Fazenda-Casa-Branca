@@ -1,13 +1,13 @@
 body {
-    background-color: #e0f7fa; /* Azul claro */
-    color: #001f33; /* Azul muito escuro */
+    background-color: #b2ebf2; /* Azul claro mais escuro */
+    color: #002d38; /* Azul escuro */
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-color: #003366; /* Azul escuro */
+    background-color: #004d40; /* Verde-água mais escuro */
     color: white;
     padding: 20px;
     text-align: center;
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link:hover {
-    background-color: #00509e; /* Azul mais claro ao passar o mouse */
+    background-color: #00796b; /* Verde mais claro ao passar o mouse */
 }
 
 .section {
@@ -41,7 +41,7 @@ body {
 }
 
 .sobre {
-    background-color: #cce7ff; /* Azul muito claro */
+    background-color: #ffcc80; /* Amarelo mais escuro */
 }
 
 .produtos-list {
@@ -54,7 +54,7 @@ body {
 }
 
 .footer {
-    background-color: #003366; /* Azul escuro */
+    background-color: #004d40; /* Verde-água mais escuro */
     color: white;
     text-align: center;
     padding: 10px;
