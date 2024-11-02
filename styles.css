@@ -1,6 +1,6 @@
 body {
     background-color: #e8f5e9; /* Verde claro */
-    color: #1b5e20; /* Verde muito escuro */
+    color: #000; /* Preto */
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: #2e7d32; /* Verde escuro */
-    color: white;
+    color: #000; /* Preto */
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: #000; /* Preto */
     text-decoration: none;
     padding: 10px 15px;
 }
@@ -55,7 +55,7 @@ body {
 
 .footer {
     background-color: #2e7d32; /* Verde escuro */
-    color: white;
+    color: #000; /* Preto */
     text-align: center;
     padding: 10px;
 }
@@ -69,3 +69,4 @@ body {
     display: inline;
     margin: 0 10px;
 }
+
