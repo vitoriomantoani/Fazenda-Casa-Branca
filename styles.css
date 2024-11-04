@@ -1,5 +1,5 @@
 body {
-    background-color: #e8f5e9; /* Verde claro */
+    background-color: #e3f2fd; /* Azul claro */
     color: #000; /* Preto */
     font-family: Arial, sans-serif; /* Fonte padrão */
     margin: 0;
@@ -7,8 +7,8 @@ body {
 }
 
 .header {
-    background-color: #2e7d32; /* Verde escuro */
-    color: #000; /* Preto */
+    background-color: #1565c0; /* Azul escuro */
+    color: #fff; /* Branco */
     padding: 20px;
     text-align: center;
 }
@@ -23,25 +23,25 @@ body {
 }
 
 .nav-link {
-    color: #000; /* Preto */
+    color: #fff; /* Branco */
     text-decoration: none;
     padding: 10px 15px;
 }
 
 .nav-link:hover {
-    background-color: #388e3c; /* Verde mais claro ao passar o mouse */
+    background-color: #1e88e5; /* Azul mais claro ao passar o mouse */
 }
 
 .section {
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
-    background-color: #fff; /* Branco */
+    background-color: #bbdefb; /* Azul muito claro */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sobre {
-    background-color: #c8e6c9; /* Verde muito claro */
+    background-color: #90caf9; /* Azul claro */
 }
 
 .produtos-list {
@@ -54,8 +54,8 @@ body {
 }
 
 .footer {
-    background-color: #2e7d32; /* Verde escuro */
-    color: #000; /* Preto */
+    background-color: #1565c0; /* Azul escuro */
+    color: #fff; /* Branco */
     text-align: center;
     padding: 10px;
 }
@@ -69,4 +69,3 @@ body {
     display: inline;
     margin: 0 10px;
 }
-
