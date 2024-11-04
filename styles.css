@@ -1,71 +1,82 @@
 body {
-    background-color: #1b3d2f; /* Verde bem escuro */
-    color: #fff; /* Branco */
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
     margin: 0;
-    padding: 0;
+    line-height: 1.6;
 }
 
 .header {
-    background-color: #0b3d1c; /* Verde muito escuro */
-    color: #fff; /* Branco */
-    padding: 20px;
+    background-color: #2e7d32;
+    color: #fff;
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.header-title {
-    margin: 0;
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .nav-link {
-    color: #fff; /* Branco */
+    color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .nav-link:hover {
-    background-color: #14532d; /* Verde escuro ao passar o mouse */
+    background-color: #66bb6a;
 }
 
 .section {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    background-color: #234f3e; /* Verde escuro */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 60px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
 }
 
-.sobre {
-    background-color: #2c6c48; /* Verde escuro */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e7d32;
 }
 
-.produtos-list {
-    list-style: none;
-    padding: 0;
+.produto-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.produtos-list li {
-    margin-bottom: 15px;
+.produto-img:hover {
+    transform: scale(1.05);
 }
 
 .footer {
-    background-color: #0b3d1c; /* Verde muito escuro */
-    color: #fff; /* Branco */
+    background-color: #2e7d32;
+    color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 15px 0;
+    margin-top: 40px;
 }
 
-.social-links {
-    list-style: none;
-    padding: 0;
+.social-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
 }
 
-.social-links li {
-    display: inline;
-    margin: 0 10px;
+.social-links a:hover {
+    color: #66bb6a;
 }
