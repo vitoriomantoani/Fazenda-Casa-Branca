@@ -6,33 +6,18 @@ body {
     line-height: 1.6;
 }
 
+/* Header - Nome da fazenda */
 .header {
-    background-color: #2e7d32;
+    background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.nav-link {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.nav-link:hover {
-    background-color: #66bb6a;
-}
-
+/* Seções específicas com imagem de fundo (Sobre nós, Produtos e Contatos) */
 .section {
     padding: 60px 20px;
     background-color: #fff;
@@ -40,8 +25,12 @@ body {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
+    background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
 }
 
+/* Seção de título */
 .section-title {
     font-size: 2.5rem;
     text-align: center;
@@ -49,6 +38,7 @@ body {
     color: #2e7d32;
 }
 
+/* Imagens de produtos */
 .produto-img {
     width: 100%;
     border-radius: 10px;
@@ -61,6 +51,7 @@ body {
     transform: scale(1.05);
 }
 
+/* Footer */
 .footer {
     background-color: #2e7d32;
     color: #fff;
@@ -69,6 +60,7 @@ body {
     margin-top: 40px;
 }
 
+/* Links sociais */
 .social-links a {
     color: #fff;
     margin: 0 15px;
