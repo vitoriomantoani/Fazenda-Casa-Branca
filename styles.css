@@ -6,18 +6,33 @@ body {
     line-height: 1.6;
 }
 
-/* Header - Nome da fazenda */
 .header {
-    background-image: url('caminho/para/sua-imagem.jpg'); /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fpaisagem-fazenda&psig=AOvVaw3LBvzSU-PetsbwLzlFjNoB&ust=1730855238426000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCQv7OAxIkDFQAAAAAdAAAAABAR*/
-    background-size: cover;
-    background-position: center;
+    background-color: #2e7d32;
     color: #fff;
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Seções específicas com imagem de fundo (Sobre nós, Produtos e Contatos) */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #66bb6a;
+}
+
 .section {
     padding: 60px 20px;
     background-color: #fff;
@@ -25,12 +40,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
-    background-image: url('caminho/para/sua-imagem.jpg'); /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fpaisagem-fazenda&psig=AOvVaw3LBvzSU-PetsbwLzlFjNoB&ust=1730855238426000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCQv7OAxIkDFQAAAAAdAAAAABAR*/
-    background-size: cover;
-    background-position: center;
 }
 
-/* Seção de título */
 .section-title {
     font-size: 2.5rem;
     text-align: center;
@@ -38,7 +49,6 @@ body {
     color: #2e7d32;
 }
 
-/* Imagens de produtos */
 .produto-img {
     width: 100%;
     border-radius: 10px;
@@ -51,7 +61,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Footer */
 .footer {
     background-color: #2e7d32;
     color: #fff;
@@ -60,7 +69,6 @@ body {
     margin-top: 40px;
 }
 
-/* Links sociais */
 .social-links a {
     color: #fff;
     margin: 0 15px;
