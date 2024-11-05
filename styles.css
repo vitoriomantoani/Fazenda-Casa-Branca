@@ -8,7 +8,7 @@ body {
 
 /* Header - Nome da fazenda */
 .header {
-    background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('caminho/para/sua-imagem.jpg'); /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fpaisagem-fazenda&psig=AOvVaw3LBvzSU-PetsbwLzlFjNoB&ust=1730855238426000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCQv7OAxIkDFQAAAAAdAAAAABAR*/
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -25,7 +25,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
-    background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('caminho/para/sua-imagem.jpg'); /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fpaisagem-fazenda&psig=AOvVaw3LBvzSU-PetsbwLzlFjNoB&ust=1730855238426000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCQv7OAxIkDFQAAAAAdAAAAABAR*/
     background-size: cover;
     background-position: center;
 }
