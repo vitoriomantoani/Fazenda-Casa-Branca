@@ -1,82 +1,137 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo geral */
+body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
+/* Container geral */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
 .header {
-    background-color: #2e7d32;
-    color: #fff;
-    padding: 15px 0;
+    background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/54/farm-690305_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px 20px;
 }
 
-.navbar {
+.header-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navbar .nav-list {
+    list-style: none;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 30px;
 }
 
-.nav-link {
-    color: #fff;
+.navbar .nav-list li {
+    margin: 0 15px;
+}
+
+.navbar .nav-link {
+    color: white;
     text-decoration: none;
-    font-weight: 600;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.nav-link:hover {
-    background-color: #66bb6a;
+.navbar .nav-link:hover {
+    text-decoration: underline;
 }
 
+/* Seção genérica */
 .section {
     padding: 60px 20px;
-    background-color: #fff;
-    margin: 20px auto;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
 }
 
 .section-title {
     font-size: 2.5rem;
+    color: #4CAF50;
     text-align: center;
     margin-bottom: 20px;
-    color: #2e7d32;
 }
 
-.produto-img {
-    width: 100%;
-    border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+/* Estilo da seção Produtos */
+.produtos-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+    padding: 0;
 }
 
-.produto-img:hover {
-    transform: scale(1.05);
-}
-
-.footer {
-    background-color: #2e7d32;
-    color: #fff;
+.produtos-list li {
     text-align: center;
-    padding: 15px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produtos-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.produtos-list p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Seção Contato */
+.contato p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
     margin-top: 40px;
 }
 
-.social-links a {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s;
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
 
-.social-links a:hover {
-    color: #66bb6a;
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
 }
